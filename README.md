@@ -1,7 +1,7 @@
 # API-BERITA-SINDO-NEWS
 Berikut ini adalah api <a href='http://www.sindonews.com' target='_blank'>sindonews.com</a> yang berisi informasi dari dalam dan luar negeri
-
-### Url => https://berita-news.herokuapp.com
+### 1. Menampilkan isi seluruh berita
+#### Url => https://berita-news.herokuapp.com
 Response dari url di atas 
 <pre>
 // 20190828082651
@@ -31,7 +31,7 @@ Response dari url di atas
  }
 </pre>
 
-### Untuk menampilkan berita yang hanya dalam negeri saja
+### 2. Untuk menampilkan berita yang hanya dalam negeri saja
 
 #### Url => https://berita-news.herokuapp.com/nasional
 
@@ -64,7 +64,7 @@ Response
   }
 </pre>
 
-### Untuk menampilkan berita internasional
+### 3. Untuk menampilkan berita internasional
 
 #### Url => <a href='https://berita-news.herokuapp.com/internasional' targe='_blank'>https://berita-news.herokuapp.com/internasional</a>
 
@@ -95,7 +95,7 @@ Response
 }
 </pre>
 
-### Mencari berita berdasarkan keinginan 
+### 4. Mencari berita berdasarkan keinginan 
 
  #### Url => <a href='https://berita-news.herokuapp.com/search/?q=' target='_blank'>https://berita-news.herokuapp.com/search/?q=</a>
  <blokquote><strong>Catatan</strong> Untuk mencari informasi yang diiginkan jangan lupa untuk memasukan parameter <strong>q</strong> kemudian isi dengan berita apa yang kamu inginkan contoh <strog>?q=kominfo</strong></blocquote>
@@ -129,7 +129,7 @@ Response
  }
 </pre>
 
-### Mendapatkan isi detail berita
+### 5. Mendapatkan isi detail berita
 #### Url => <a href='https://berita-news.herokuapp.com/detail/?url=' target='_blank'>https://berita-news.herokuapp.com/detail/?url=<strong>URL Berita ( masukan tanpa tanda kutip )</strong></a>
 
 Response
