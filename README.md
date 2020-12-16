@@ -128,8 +128,23 @@ Response
    ]
  }
 </pre>
+### 5. Mendapatkan berita berdasarkan kategori
+daftar kategori yang tersedia
+| nama |
+|------|
+| eksbis |
+| lifestyle |
+| kalam |
+| olahraga |
+| teknologi |
 
-### 5. Mendapatkan isi detail berita
+contoh request
+
+```bash
+https://berita-news.herokuapp.com/category/?type=olahraga
+```
+
+### 6. Mendapatkan isi detail berita
 #### Url => <a href='https://berita-news.herokuapp.com/detail/?url=' target='_blank'>https://berita-news.herokuapp.com/detail/?url=<strong>URL Berita ( masukan tanpa tanda kutip )</strong></a>
 
 Response
