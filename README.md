@@ -183,4 +183,5 @@ Response
 | Konten | Isi detail berita |
 
 
-Itulah seputar api berita dari <a href='https://www.sindonews.com'>sindonews.com</a> semoga bermanfaat
+### LICENCE MIT
+maintainer rizkimaulana348@gmail.com
