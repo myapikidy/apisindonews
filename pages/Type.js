@@ -47,7 +47,7 @@ router.get('/', (req, res) => {
                     data.data[row]['judul'] = judul;
                     const waktu = $(tag[row]).find('.homelist-date').text();
                     data.data[row]['waktu'] = waktu;
-                    data.data[row]['poster'] = $(tag[row]).find('.homelist-pict a img').attr("src")            
+                    data.data[row]['poster'] = $(tag[row]).find('.homelist-pict a img').attr("data-original")            
                     data.data[row]['tipe'] = 'Internasional';
                     data.data[row]['kutipan'] = $(tag[row]).find('.homelist-desc').text()
                 });

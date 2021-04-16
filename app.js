@@ -52,10 +52,11 @@ app.use((error, req, res, next) => {
             data.data[i]['waktu'] = waktu;
             const tipe = $(tag[i]).find('div.news-channel div.newsc').text();
             data.data[i]['tipe'] = tipe;
-            data.data[i]['poster'] = $(tag2[i]).find('img').attr().src;
+            data.data[i]['poster'] = $(tag2[i]).find('img').attr("data-src");
             data.data[i]['kutipan'] = $(tag[i]).find('div.news-summary').text();
 
         })
+        console.log($(tag2[0]).find('img').attr("data-src"))
     }).then(() => {
         res.json({
             status: data.status,
