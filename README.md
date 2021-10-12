@@ -5,7 +5,7 @@ Berikut ini adalah `unofficial` api <a href='http://www.sindonews.com' target='_
 Response dari url di atas 
 <pre>
 // 20190828082651
-// https://berita-news.herokuapp.com/
+// https://api-sindo.herokuapp.com/
 
 {
   "status": 200,
@@ -33,12 +33,12 @@ Response dari url di atas
 
 ### 2. Untuk menampilkan berita yang hanya dalam negeri saja
 
-#### Url => https://berita-news.herokuapp.com/nasional
+#### Url => https://api-sindo.herokuapp.com/nasional
 
 Response 
 <pre>
 // 20190828081754
-// https://berita-news.herokuapp.com/nasional
+// https://api-sindo.herokuapp.com/nasional
 
 {
   "status": 200,
@@ -66,12 +66,12 @@ Response
 
 ### 3. Untuk menampilkan berita internasional
 
-#### Url => <a href='https://berita-news.herokuapp.com/internasional' targe='_blank'>https://berita-news.herokuapp.com/internasional</a>
+#### Url => <a href='https://api-sindo.herokuapp.com/internasional' targe='_blank'>https://api-sindo.herokuapp.com/internasional</a>
 
 Response
 <pre>
 // 20190828081954
-// https://berita-news.herokuapp.com/internasional
+// https://api-sindo.herokuapp.com/internasional
 
 {
   "status": 200,
@@ -97,13 +97,13 @@ Response
 
 ### 4. Mencari berita berdasarkan keinginan 
 
- #### Url => <a href='https://berita-news.herokuapp.com/search/?q=' target='_blank'>https://berita-news.herokuapp.com/search/?q=</a>
+ #### Url => <a href='https://api-sindo.herokuapp.com/search/?q=' target='_blank'>https://api-sindo.herokuapp.com/search/?q=</a>
  <blokquote><strong>Catatan</strong> Untuk mencari informasi yang diiginkan jangan lupa untuk memasukan parameter <strong>q</strong> kemudian isi dengan berita apa yang kamu inginkan contoh <strog>?q=kominfo</strong></blocquote>
  
 Response
 <pre>
 // 20190828082254
-// https://berita-news.herokuapp.com/search/?q=kominfo
+// https://api-sindo.herokuapp.com/search/?q=kominfo
 
 {
   "status": 200,
@@ -141,17 +141,17 @@ daftar kategori yang tersedia
 contoh request
 
 ```bash
-https://berita-news.herokuapp.com/category/?type=olahraga
+https://api-sindo.herokuapp.com/category/?type=olahraga
 ```
 
 ### 6. Mendapatkan isi detail berita
-#### Url => <a href='https://berita-news.herokuapp.com/detail/?url=' target='_blank'>https://berita-news.herokuapp.com/detail/?url=<strong>URL Berita ( masukan tanpa tanda kutip )</strong></a>
+#### Url => <a href='https://api-sindo.herokuapp.com/detail/?url=' target='_blank'>https://api-sindo.herokuapp.com/detail/?url=<strong>URL Berita ( masukan tanpa tanda kutip )</strong></a>
 
 Response
 
 <pre>
 // 20190828083458
-// https://berita-news.herokuapp.com/detail/?url=https://nasional.sindonews.com/read/1434156/15/layanan-eyab-bagi-jamaah-haji-indonesia-di-bandara-jeddah-berakhir-hari-ini-1566955372
+// https://api-sindo.herokuapp.com/detail/?url=https://nasional.sindonews.com/read/1434156/15/layanan-eyab-bagi-jamaah-haji-indonesia-di-bandara-jeddah-berakhir-hari-ini-1566955372
 
 {
   "status": 200,
