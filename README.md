@@ -1,5 +1,5 @@
 # API-BERITA-SINDO-NEWS
-Berikut ini adalah api <a href='http://www.sindonews.com' target='_blank'>sindonews.com</a> yang berisi informasi dari dalam dan luar negeri
+Berikut ini adalah `unofficial` api <a href='http://www.sindonews.com' target='_blank'>sindonews.com</a> yang berisi informasi dari dalam dan luar negeri
 ### 1. Menampilkan isi seluruh berita
 #### Url => https://berita-news.herokuapp.com
 Response dari url di atas 
